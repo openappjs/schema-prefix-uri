@@ -1,0 +1,38 @@
+{
+  "name": "schema-prefix-uri",
+  "version": "1.0.0",
+  "description": "returns json-schema with any id's or $ref's prefixed as a uri",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/openappjs/schema-prefix-uri.git"
+  },
+  "keywords": [
+    "openappjs",
+    "schema",
+    "json-schema",
+    "$ref",
+    "id",
+    "uri"
+  ],
+  "author": "ahdinosaur",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/openappjs/schema-prefix-uri/issues"
+  },
+  "homepage": "https://github.com/openappjs/schema-prefix-uri",
+  "devDependencies": {
+    "tape": "^2.14.0"
+  },
+  "dependencies": {
+    "traverse": "^0.6.6",
+    "valid-url": "^1.0.9",
+    "xtend": "^4.0.0"
+  }
+}
